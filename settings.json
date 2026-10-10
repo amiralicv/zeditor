@@ -1,0 +1,120 @@
+{
+  "snippet_sort_order": "top",
+  "context_servers": {
+    "postgres-context-server": {
+      "enabled": true,
+      "remote": false,
+      "settings": {
+        "database_url": "postgresql://aag:CHANGE_ME@localhost:5432",
+      },
+    },
+  },
+  "icon_theme": "VSCode Icons for Zed (Dark Official Icons)",
+  "project_panel": {
+    "dock": "left",
+    "folder_icons": true,
+    "indent_size": 20,
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "status_bar": {
+    "experimental.show": true,
+  },
+  "mouse_wheel_zoom": true,
+  "minimap": {
+    "show": "always",
+  },
+  "cursor_shape": "bar",
+  "autosave": "on_focus_change",
+  "buffer_font_size": 14.0,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ensure_final_newline_on_save": true,
+  "format_on_save": "on",
+  "wrap_guides": [80, 120],
+  "base_keymap": "JetBrains",
+  "theme": "Omazed",
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font",
+  },
+  "remove_trailing_whitespace_on_save": true,
+  "languages": {
+    "Python": {
+      "tab_size": 4,
+      "wrap_guides": [80],
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "code_actions": {
+            "source.organizeImports.ruff": true,
+            "source.fixAll.ruff": true,
+          },
+        },
+        {
+          "language_server": {
+            "name": "ruff",
+          },
+        },
+      ],
+    },
+    "C++": {
+      "tab_size": 4,
+      "hard_tabs": false,
+      "format_on_save": "on",
+      "wrap_guides": [120],
+      "formatter": "auto",
+    },
+    "C": {
+      "tab_size": 4,
+      "hard_tabs": false,
+      "format_on_save": "on",
+      "wrap_guides": [120],
+      "formatter": "auto",
+    },
+  },
+  "lsp": {
+    "basedpyright": {
+      "settings": {
+        "basedpyright.analysis": {
+          "typeCheckingMode": "basic",
+          "autoImportCompletions": true,
+        },
+      },
+    },
+    "clangd": {
+      "binary": {
+        "arguments": [
+          "--background-index",
+          "--clang-tidy",
+          "--header-insertion=iwyu",
+          "--completion-style=detailed",
+          "--function-arg-placeholders=false",
+          "--compile-commands-dir=cmake-build-debug",
+          "--fallback-style={BasedOnStyle: LLVM, IndentWidth: 4, ColumnLimit: 120}",
+        ],
+      },
+    },
+  },
+  "inlay_hints": {
+    "enabled": true,
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+    "selections_menu": false,
+    "agent_review": false,
+    "code_actions": false,
+  },
+}

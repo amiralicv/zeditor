@@ -1,0 +1,184 @@
+{
+  "print": {
+    "prefix": "print",
+    "body": [
+      "print($1)$0"
+    ],
+    "description": "print()"
+  },
+  "len": {
+    "prefix": "len",
+    "body": [
+      "len($1)$0"
+    ],
+    "description": "len()"
+  },
+  "range": {
+    "prefix": "range",
+    "body": [
+      "range($1)$0"
+    ],
+    "description": "range()"
+  },
+  "enumerate": {
+    "prefix": "enumerate",
+    "body": [
+      "enumerate($1)$0"
+    ],
+    "description": "enumerate()"
+  },
+  "zip": {
+    "prefix": "zip",
+    "body": [
+      "zip($1)$0"
+    ],
+    "description": "zip()"
+  },
+  "isinstance": {
+    "prefix": "isinstance",
+    "body": [
+      "isinstance($1)$0"
+    ],
+    "description": "isinstance()"
+  },
+  "sorted": {
+    "prefix": "sorted",
+    "body": [
+      "sorted($1)$0"
+    ],
+    "description": "sorted()"
+  },
+  "sum": {
+    "prefix": "sum",
+    "body": [
+      "sum($1)$0"
+    ],
+    "description": "sum()"
+  },
+  "min": {
+    "prefix": "min",
+    "body": [
+      "min($1)$0"
+    ],
+    "description": "min()"
+  },
+  "max": {
+    "prefix": "max",
+    "body": [
+      "max($1)$0"
+    ],
+    "description": "max()"
+  },
+  "open": {
+    "prefix": "open",
+    "body": [
+      "open($1)$0"
+    ],
+    "description": "open()"
+  },
+  "input": {
+    "prefix": "input",
+    "body": [
+      "input($1)$0"
+    ],
+    "description": "input()"
+  },
+  "int": {
+    "prefix": "int",
+    "body": [
+      "int($1)$0"
+    ],
+    "description": "int()"
+  },
+  "str": {
+    "prefix": "str",
+    "body": [
+      "str($1)$0"
+    ],
+    "description": "str()"
+  },
+  "float": {
+    "prefix": "float",
+    "body": [
+      "float($1)$0"
+    ],
+    "description": "float()"
+  },
+  "list": {
+    "prefix": "list",
+    "body": [
+      "list($1)$0"
+    ],
+    "description": "list()"
+  },
+  "dict": {
+    "prefix": "dict",
+    "body": [
+      "dict($1)$0"
+    ],
+    "description": "dict()"
+  },
+  "set": {
+    "prefix": "set",
+    "body": [
+      "set($1)$0"
+    ],
+    "description": "set()"
+  },
+  "tuple": {
+    "prefix": "tuple",
+    "body": [
+      "tuple($1)$0"
+    ],
+    "description": "tuple()"
+  },
+  "map": {
+    "prefix": "map",
+    "body": [
+      "map($1)$0"
+    ],
+    "description": "map()"
+  },
+  "filter": {
+    "prefix": "filter",
+    "body": [
+      "filter($1)$0"
+    ],
+    "description": "filter()"
+  },
+  "any": {
+    "prefix": "any",
+    "body": [
+      "any($1)$0"
+    ],
+    "description": "any()"
+  },
+  "all": {
+    "prefix": "all",
+    "body": [
+      "all($1)$0"
+    ],
+    "description": "all()"
+  },
+  "abs": {
+    "prefix": "abs",
+    "body": [
+      "abs($1)$0"
+    ],
+    "description": "abs()"
+  },
+  "type": {
+    "prefix": "type",
+    "body": [
+      "type($1)$0"
+    ],
+    "description": "type()"
+  },
+  "super": {
+    "prefix": "super",
+    "body": [
+      "super($1)$0"
+    ],
+    "description": "super()"
+  }
+}

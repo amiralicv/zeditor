@@ -1,0 +1,36 @@
+[
+  {
+    "bindings": {
+      "alt-w": "terminal_panel::Toggle",
+      "alt-c": "pane::CloseActiveItem",
+      "ctrl-f4": "pane::CloseActiveItem",
+      "alt-minus": "zed::DecreaseBufferFontSize",
+      "alt-=": "zed::IncreaseBufferFontSize",
+      "alt-left": "pane::ActivatePreviousItem",
+      "alt-right": "pane::ActivateNextItem",
+      "alt-e": "task::Spawn",
+      "alt-q": "debugger::Start"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-y": "editor::DeleteLine",
+      "alt-d": "editor::DeleteLine",
+      "alt-up": "editor::GoToPreviousSymbol",
+      "alt-down": "editor::GoToNextSymbol"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "enter": "project_panel::OpenPermanent"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-1": "project_panel::ToggleFocus"
+    }
+  }
+]
