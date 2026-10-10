@@ -30,7 +30,12 @@
   {
     "context": "Workspace",
     "bindings": {
-      "alt-1": "project_panel::ToggleFocus"
+      "alt-1": "project_panel::ToggleFocus",
+      "alt-5": "debug_panel::ToggleFocus",
+      "alt-6": "diagnostics::Deploy",
+      "alt-7": "outline_panel::ToggleFocus",
+      "alt-9": "git_panel::ToggleFocus",
+      "ctrl-shift-f12": "workspace::CloseAllDocks"
     }
   }
 ]

@@ -1,4 +1,10 @@
 {
+  "tabs": {"close_position": "right", "file_icons": true, "git_status": true, "show_diagnostics": "errors"},
+  "preview_tabs": {"enabled": false},
+  "sticky_scroll": {"enabled": true},
+  "indent_guides": {"enabled": true},
+  "scrollbar": {"show": "auto"},
+  "git": {"inline_blame": {"enabled": true}},
   "snippet_sort_order": "top",
   "context_servers": {
     "postgres-context-server": {
