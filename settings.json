@@ -95,8 +95,48 @@
       "wrap_guides": [120],
       "formatter": "auto",
     },
+    "Rust": {
+      "tab_size": 4,
+      "hard_tabs": false,
+      "format_on_save": "on",
+      "wrap_guides": [100],
+      "formatter": "language_server",
+      "inlay_hints": {
+        "enabled": true,
+        "show_type_hints": true,
+        "show_parameter_hints": true,
+        "show_other_hints": true,
+      },
+    },
   },
   "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "check": {
+          "command": "clippy",
+          "allTargets": true,
+        },
+        "cargo": {
+          "allFeatures": true,
+          "buildScripts": { "enable": true },
+        },
+        "procMacro": { "enable": true },
+        "completion": {
+          "autoimport": { "enable": true },
+          "callable": { "snippets": "fill_arguments" },
+        },
+        "imports": {
+          "granularity": { "group": "module" },
+          "prefix": "self",
+        },
+        "inlayHints": {
+          "closingBraceHints": { "minLines": 20 },
+          "lifetimeElisionHints": { "enable": "skip_trivial" },
+          "chainingHints": { "enable": true },
+        },
+        "lens": { "enable": true },
+      },
+    },
     "basedpyright": {
       "settings": {
         "basedpyright.analysis": {
