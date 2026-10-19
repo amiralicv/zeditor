@@ -18,6 +18,7 @@
     "bindings": {
       "ctrl-y": "editor::DeleteLine",
       "alt-d": "editor::DeleteLine",
+      "alt-j": "multi_workspace::ToggleWorkspaceSidebar",
       "alt-up": "editor::GoToPreviousSymbol",
       "alt-down": "editor::GoToNextSymbol"
     }
@@ -31,6 +32,7 @@
   {
     "context": "Workspace",
     "bindings": {
+      "alt-j": "multi_workspace::ToggleWorkspaceSidebar",
       "alt-1": "project_panel::ToggleFocus",
       "alt-5": "debug_panel::ToggleFocus",
       "alt-6": "diagnostics::Deploy",
