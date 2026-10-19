@@ -33,6 +33,7 @@
     "context": "Workspace",
     "bindings": {
       "alt-j": "multi_workspace::ToggleWorkspaceSidebar",
+      "alt-o": "projects::OpenRecent",
       "alt-1": "project_panel::ToggleFocus",
       "alt-5": "debug_panel::ToggleFocus",
       "alt-6": "diagnostics::Deploy",
