@@ -2,6 +2,7 @@
   {
     "bindings": {
       "alt-w": "terminal_panel::Toggle",
+      "alt-shift-w": "workspace::NewTerminal",
       "alt-c": "pane::CloseActiveItem",
       "ctrl-f4": "pane::CloseActiveItem",
       "alt-minus": "zed::DecreaseBufferFontSize",
