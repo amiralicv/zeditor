@@ -13,16 +13,34 @@ My [Zed](https://zed.dev) editor configuration, set up to feel like a JetBrains 
 ## Highlights
 
 - **JetBrains-style keymap** (`base_keymap: JetBrains`) plus my own CLion shortcuts.
-- `alt-up` / `alt-down`: previous / next symbol.
-- `alt-left` / `alt-right`: previous / next tab.
-- `alt-1`: focus the project panel; `enter` there opens the file in the editor.
-- `alt-e`: run a task; `alt-q`: start the debugger.
-- `alt-w`: toggle terminal; `alt-c`: close tab; `alt-d` / `ctrl-y`: delete line.
-- `alt--` / `alt-=`: change font size.
+- All custom `alt` shortcuts are listed in [Alt shortcuts](#alt-shortcuts).
 - **Python:** ruff format on save, organize imports and fix-all, 80-column ruler.
 - **C/C++:** clangd with clang-tidy, background indexing and `cmake-build-debug` as the compile commands directory.
 - **Rust:** rust-analyzer with clippy diagnostics, all features and targets, rustfmt via the language server on save, inlay hints, 100-column ruler.
 - Toolbar (breadcrumbs and quick-action buttons) hidden for a cleaner editor.
+
+## Alt shortcuts
+
+| Key | Action |
+|---|---|
+| `alt-1` | Focus project panel (`enter` there opens the file in the editor) |
+| `alt-5` | Focus debug panel |
+| `alt-6` | Diagnostics |
+| `alt-7` | Focus outline panel |
+| `alt-9` | Focus git panel |
+| `alt-c` | Close tab |
+| `alt-d` | Delete line (also `ctrl-y`) |
+| `alt-e` | Run a task |
+| `alt-j` | Toggle workspace sidebar (threads and projects) |
+| `alt-o` | Open recent projects |
+| `alt-q` | Start debugger |
+| `alt-w` | Toggle terminal |
+| `alt-shift-w` | New terminal |
+| `alt-up` / `alt-down` | Previous / next symbol |
+| `alt-left` / `alt-right` | Previous / next tab |
+| `alt--` / `alt-=` | Decrease / increase font size |
+
+Also: `ctrl-shift-f12` closes all docks, `ctrl-f4` closes tab.
 
 ## Install
 
