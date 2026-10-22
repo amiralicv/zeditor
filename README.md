@@ -9,6 +9,7 @@ My [Zed](https://zed.dev) editor configuration, set up to feel like a JetBrains 
 | `settings.json` | Editor settings: JetBrains base keymap, JetBrains Mono Nerd Font everywhere, Python (ruff + basedpyright), C/C++ (clangd), and Rust (rust-analyzer + clippy) setup |
 | `keymap.json` | Custom shortcuts on top of the JetBrains keymap |
 | `snippets/python.json` | Snippets that insert `()` after common Python builtins |
+| `themes/omazed*.json` | Omarchy's gruvbox theme (Omazed) in 5 background shades: Darkest, Darker, Dark, Soft, Lighter. Copy to `%APPDATA%\Zed\themes` on Windows or `~/.config/zed/themes` on Linux |
 
 ## Highlights
 
@@ -50,7 +51,7 @@ Copy the files to Zed's config folder:
 - Windows: `%APPDATA%\Zed\`
 
 ```sh
-git clone git@github.com:amiraliverse/zeditor.git
+git clone git@github.com:amiralirs/zeditor.git
 cp zeditor/keymap.json ~/.config/zed/
 cp -r zeditor/snippets ~/.config/zed/
 # merge settings.json by hand: it is a template, see below
