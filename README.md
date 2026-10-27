@@ -51,7 +51,7 @@ Copy the files to Zed's config folder:
 - Windows: `%APPDATA%\Zed\`
 
 ```sh
-git clone git@github.com:amiralirs/zeditor.git
+git clone git@github.com:amiralicv/zeditor.git
 cp zeditor/keymap.json ~/.config/zed/
 cp -r zeditor/snippets ~/.config/zed/
 # merge settings.json by hand: it is a template, see below
